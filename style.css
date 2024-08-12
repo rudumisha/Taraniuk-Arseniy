@@ -76,7 +76,7 @@ h1 {
 .products {
   display: flex;
   justify-content: space-around;
-  max-width: 1900px;
+  max-width: 1200px;
   margin: 0 auto;
   flex-wrap: wrap;
 }
@@ -113,7 +113,7 @@ h1 {
 .banner {
   display: block;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1900px;
   height: auto; 
   margin: 30px auto;
   border-radius: 10px;
