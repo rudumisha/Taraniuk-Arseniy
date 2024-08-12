@@ -1,0 +1,151 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #36bbce;
+  padding: 10px 0;
+  border-bottom: 2px solid #ddd;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.button {
+  background-color: #004d99;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #e6e6e6;
+  padding: 15px 0;
+}
+
+.ak {
+  margin: 0 15px;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+}
+
+.catalog-nav {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.nav-link {
+  margin: 0 15px;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 2px solid #004d99;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  font-size: 36px;
+  margin: 20px 0;
+}
+
+.products {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.item {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  width: calc(50% - 40px);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.article-but {
+  display: inline-block;
+  text-decoration: none;
+  background-color: grey;
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+.banner {
+  display: block;
+  width: 100%;
+  max-width: 1200px;
+  height: auto; 
+  margin: 30px auto;
+  border-radius: 10px;
+  object-fit: cover; 
+}
+
+footer {
+  background-color: #004d99;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.social-icon {
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+}
+
+footer p {
+  margin-top: 20px;
+  font-size: 18px;
+}
+.products p{
+  font-size: 25px;
+}
